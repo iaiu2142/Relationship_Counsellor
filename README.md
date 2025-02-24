@@ -30,15 +30,6 @@ The AI Relationship Counsellor is an intelligent, context-aware web app that lev
 
 - Hugging Face Spaces: Flexible and accessible AI model hosting and deployment platform.
 
-## How to Run Locally
-
-Clone the repository, install dependencies, and launch the app with:
-
-pip install -r requirements.txt
-streamlit run app.py
-
-The app will open automatically at http://localhost:8501.
-
-## Deployment
+The app can be accessed [here](https://huggingface.co/spaces/devilsa/Relationship_Counselling)<br>
 
 This application can be effortlessly deployed using platforms like Streamlit Cloud or Hugging Face Spaces.
