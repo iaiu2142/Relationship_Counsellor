@@ -32,4 +32,5 @@ The AI Relationship Counsellor is an intelligent, context-aware web app that lev
 
 Hugging Face: The app can be accessed [here](https://huggingface.co/spaces/devilsa/Relationship_Counselling)<br>
 Streamlit: This app can be accessed [here](https://relationshipcounseling-gchhjowphrtbddzztgmgpa.streamlit.app/)<br>
+
 This application can be effortlessly deployed using platforms like Streamlit Cloud or Hugging Face Spaces.
