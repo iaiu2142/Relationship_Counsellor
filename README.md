@@ -1,40 +1,44 @@
-# Relationship Advisor
+# AI Relationship Counsellor
 
-This is an AI-powered relationship counselling app deployed on Hugging Face Spaces using Streamlit. The app leverages Retrieval-Augmented Generation (RAG) to provide insightful and context-aware relationship advice based on user queries.
+The AI Relationship Counsellor is an intelligent, context-aware web app that leverages advanced AI techniques to analyze relationship dynamics based on user-uploaded WhatsApp chat logs or textual conversations. It identifies potential red flags, evaluates conversational toxicity, and suggests behavioral improvements.
 
-## Features
+## Key Features
 
-Upload Documents: Users can upload plain text files containing relationship concerns, chat logs, or journal entries.
+- Text Uploads: Easily upload WhatsApp chats or plain-text relationship discussions for analysis.
 
-Contextual Understanding: Uses FAISS for efficient similarity search and Sentence Transformers for embedding text.
+- Context-Aware Insights: Utilizes Retrieval-Augmented Generation (RAG) for accurate, context-driven advice.
 
-User-Friendly Interface: Built with Streamlit for an interactive and easy-to-use experience.
+- Interactive UI: Developed with Streamlit, ensuring a responsive and intuitive user experience.
 
-## Technologies Used
+## Core Technologies
 
-Streamlit: Web framework for interactive UI.
+- Streamlit: Simplifies web application deployment and provides interactive front-end components.
 
-FAISS: Vector search for efficient document retrieval.
+- FAISS: Efficiently searches and retrieves relevant textual segments from large conversations.
 
-Sentence Transformers: Embedding model (all-MiniLM-L6-v2) for text representation.
+- Sentence Transformers: Embedding model (all-MiniLM-L6-v2) generates semantic representations of conversations.
 
-OpenAI API: Queries an AI model (Deepseek) for generating advice.
+- Groq API (deepseek-r1-distill-llama-70b): Performs relationship-focused conversational analysis, detecting toxic behavior and suggesting improvements.
 
-Hugging Face Spaces: Deployment platform.
+## Tools Used
 
-## Installation & Running Locally
+- VS Code: Powerful and intuitive IDE for coding.
 
-To run this app locally, install the dependencies and start the Streamlit server:
+- GitHub: Version control and hosting for collaborative development.
 
-```bash
+- Streamlit Cloud: Quick and easy platform for web app deployment.
+
+- Hugging Face Spaces: Flexible and accessible AI model hosting and deployment platform.
+
+## How to Run Locally
+
+Clone the repository, install dependencies, and launch the app with:
+
 pip install -r requirements.txt
 streamlit run app.py
-```
+
+The app will open automatically at http://localhost:8501.
 
 ## Deployment
 
-This app is deployed on Hugging Face Spaces and can be accessed [here](https://huggingface.co/spaces/sssfasihieee/RelationshipCounsellor).
-
----
-
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+This application can be effortlessly deployed using platforms like Streamlit Cloud or Hugging Face Spaces.
