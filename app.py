@@ -4,7 +4,7 @@ from sentence_transformers import SentenceTransformer
 from groq import Groq
 
 # Initialize Groq API
-client = Groq(api_key="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")  # Ensure your API key is valid
+client = Groq(api_key="Secret key")  # Ensure your API key is valid
 
 # Initialize Sentence Transformer
 embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
@@ -92,3 +92,4 @@ if uploaded_file:
         st.write("### AI Analysis")
 
         st.write(response)
+
